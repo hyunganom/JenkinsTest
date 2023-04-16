@@ -11,6 +11,6 @@ public class TestController {
 	@RequestMapping("/")
 	@ResponseBody
 	public String test(Model model) {
-		return "jenkins test";
+		return "jenkins test";   
 	}
 }
